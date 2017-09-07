@@ -48,7 +48,7 @@ prompt_git() {
 	fi;
 }
 
-#Colores
+#Colors
 reset=$(tput sgr0);
 bold=$(tput bold);
 black=$(tput setaf 0);
@@ -58,26 +58,26 @@ blue=$(tput setaf 33);
 green=$(tput setaf 64);
 red=$(tput setaf 124);
 yellow=$(tput setaf 228);
-purple=$(tput setaf 125);
+violet=$(tput setaf 55);
 orange=$(tput setaf 166);
 cyan=$(tput setaf 80);
 
 #PS1
-PS1="\[${cyan}\]\u";   #Nombre de usuario
+PS1="\[${cyan}\]\u";   #username
 PS1+="\[${white}\]\[${bold}\]@\[${reset}\]";
-PS1+="\[${orange}\]\h";  #Nombre de host
+PS1+="\[${orange}\]\h";  #hostname
 PS1+="\[${white}\]\[${bold}\] in \[${reset}\]";
 PS1+="\[${green}\]\[${bold}\][\[${reset}\]";
-PS1+="\[${grey}\]\W";  #Directorio actual
+PS1+="\[${grey}\]\W";  #directory
 PS1+="\[${reset}\]\[${green}\]\[${bold}\]]";
-PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; # Git repository details
+PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; #Git repository
 PS1+="\[${reset}\]\n$";
 
-#Alias personales
+#personal alias
 alias la='ls -la'
 alias ll='ls -l'
 
-#Alias Git
+#
 alias add='git add'
 alias com='git commit -m'
 alias push='git push'
