@@ -84,6 +84,13 @@ alias doc='cd ~/Documents';
 alias dow='cd ~/Downloads';
 alias desk='cd ~/Desktop';
 
+#alias for Windows -> Debian console on Windows 10
+alias whome='/mnt/c/Users/ednoe/'
+alias wdisk='/mnt/c/'
+alias wdoc='/mnt/c/Users/ednoe/Documents'
+alias wdow='/mnt/c/Users/ednoe/Downloads'
+alias wdesk='/mnt/c/Users/ednoe/Desktop'
+
 #git alias
 alias add='git add';
 alias com='git commit -m';
