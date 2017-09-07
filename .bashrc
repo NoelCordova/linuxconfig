@@ -71,7 +71,7 @@ PS1+="\[${green}\]\[${bold}\][\[${reset}\]";
 PS1+="\[${grey}\]\W";  #directory
 PS1+="\[${reset}\]\[${green}\]\[${bold}\]]";
 PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; #Git repository
-PS1+="\[${reset}\]\n$";
+PS1+="\[${reset}\]\n$ ";
 
 #personal alias
 alias la='ls -la';
