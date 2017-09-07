@@ -74,11 +74,18 @@ PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; #Git repository
 PS1+="\[${reset}\]\n$";
 
 #personal alias
-alias la='ls -la'
-alias ll='ls -l'
+alias la='ls -la';
+alias ll='ls -l';
+alias ..='cd ..';
+alias ...='cd ../..';
+alias home='cd ~';
+alias disk='cd /';
+alias doc='cd ~/Documents';
+alias dow='cd ~/Downloads';
+alias desk='cd ~/Desktop';
 
 #git alias
-alias add='git add'
-alias com='git commit -m'
-alias push='git push'
-alias st='git status'
+alias add='git add';
+alias com='git commit -m';
+alias push='git push';
+alias st='git status';
