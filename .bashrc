@@ -70,7 +70,7 @@ PS1+="\[${white}\]\[${bold}\] in \[${reset}\]";
 PS1+="\[${green}\]\[${bold}\][\[${reset}\]";
 PS1+="\[${grey}\]\W";  #Directorio actual
 PS1+="\[${reset}\]\[${green}\]\[${bold}\]]";
-PS1+="\$(prompt_git \"\[${white}\] on \[${violet}\]\" \"\[${blue}\]\")"; # Git repository details
+PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; # Git repository details
 PS1+="\[${reset}\]\n$";
 
 #Alias personales
