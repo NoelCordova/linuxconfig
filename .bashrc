@@ -77,7 +77,7 @@ PS1+="\[${reset}\]\n$";
 alias la='ls -la'
 alias ll='ls -l'
 
-#
+#git alias
 alias add='git add'
 alias com='git commit -m'
 alias push='git push'
