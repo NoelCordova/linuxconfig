@@ -62,6 +62,9 @@ violet=$(tput setaf 55);
 orange=$(tput setaf 166);
 cyan=$(tput setaf 80);
 
+#Header
+echo "\s";
+
 #PS1
 PS1="\[${cyan}\]\u";   #username
 PS1+="\[${white}\]\[${bold}\]@\[${reset}\]";
