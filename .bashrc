@@ -62,9 +62,6 @@ violet=$(tput setaf 55);
 orange=$(tput setaf 166);
 cyan=$(tput setaf 80);
 
-#Header
-echo "\s";
-
 #PS1
 PS1="\[${cyan}\]\u";   #username
 PS1+="\[${white}\]\[${bold}\]@\[${reset}\]";
@@ -98,4 +95,5 @@ alias wdesk='cd /mnt/c/Users/ednoe/Desktop'
 alias add='git add';
 alias com='git commit -m';
 alias push='git push';
+alias pull='git pull';
 alias st='git status';
