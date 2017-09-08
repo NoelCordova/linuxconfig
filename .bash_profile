@@ -1,1 +1,1 @@
-echo "Hola";
+[ -n "$PS1" ] && source ~/.bashrc;
