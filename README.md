@@ -1,2 +1,8 @@
 # linuxconfig
-Checklist personal para una nueva distribución en Linux
+
+### Content
+
+|File         |Description|
+|-------------|-----------|
+|.bashrc      |-|
+|.bash_profile|-|
