@@ -74,8 +74,9 @@ PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; #Git repository
 PS1+="\[${reset}\]\n$ ";
 
 #personal alias
-alias la='ls -la';
-alias ll='ls -l';
+alias ls='ls --color'
+alias la='ls -la --color';
+alias ll='ls -l --color';
 alias ..='cd ..';
 alias ...='cd ../..';
 alias home='cd ~';
@@ -97,3 +98,7 @@ alias com='git commit -m';
 alias push='git push';
 alias pull='git pull';
 alias st='git status';
+
+#command colors 'ls'
+LS_COLORS='di=4;31:fi=5;35:*.txt=36';
+export LS_COLORS
