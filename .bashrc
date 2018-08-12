@@ -95,8 +95,9 @@ alias wdesk='cd /mnt/c/Users/ednoe/Desktop'
 #git alias
 alias add='git add';
 alias com='git commit -m';
-alias push='git push';
+alias push='git push origin master';
 alias pull='git pull';
+alias clone='git clone';
 alias st='git status';
 
 #command colors 'ls'
