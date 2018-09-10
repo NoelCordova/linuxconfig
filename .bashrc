@@ -63,15 +63,11 @@ orange=$(tput setaf 166);
 cyan=$(tput setaf 80);
 
 #PS1
-PS1="\[${cyan}\]\u";   #username
-PS1+="\[${white}\]\[${bold}\]@\[${reset}\]";
-PS1+="\[${orange}\]\h";  #hostname
-PS1+="\[${white}\]\[${bold}\] in \[${reset}\]";
-PS1+="\[${green}\]\[${bold}\][\[${reset}\]";
-PS1+="\[${grey}\]\W";  #directory
-PS1+="\[${reset}\]\[${green}\]\[${bold}\]]";
-PS1+="\$(prompt_git \"\[${yellow}\] on \" \"\[${blue}\]\")"; #Git repository
-PS1+="\[${reset}\]\n$ ";
+PS1="\[${bold}\][";     #[ of directory
+PS1+="\[${green}\]\W";  # \W PATH
+PS1+="\[${white}\]]";   #] of directory
+PS1+="\$(prompt_git \"\[${yellow}\] \" \"\[${cyan}\]\")"; #Git repository
+PS1+="\[${reset}\] : ";
 
 #personal alias
 alias ls='ls --color'
